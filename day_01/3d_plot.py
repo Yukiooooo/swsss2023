@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """Space 477: Python: I
-
+funct for cos
 cosine approximation function
 """
 __author__ = 'Yu Hong'
