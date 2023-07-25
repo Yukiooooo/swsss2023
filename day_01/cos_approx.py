@@ -22,10 +22,6 @@ def cos_approx(x, accuracy=10):
         from math import pi
         cos_approx(pi) = -1.0
     """
-    comprehended = [x**(2*n)*(-1)**n/math.factorial(2*n) for n in range(accuracy)] 
-    sum_val = sum(comprehended)
-    return sum_val
-
 
 # Will only run if this is run from command line as opposed to imported
 if __name__ == '__main__':  # main code block
